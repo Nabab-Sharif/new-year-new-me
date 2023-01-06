@@ -1,0 +1,281 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.hero {
+  height: 100vh;
+  width: 100%;
+  background-image: url(../images/banner/banner2.png);
+  background-size: cover;
+  background-position: center;
+}
+
+/*common style */
+.btn-primary {
+  height: 64px;
+  border-radius: 5px;
+  width: 160px;
+  color: #FD6E0A;
+  font-weight: 700;
+  font-size: 20px;
+  border: 0;
+
+}
+
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-top: 45px;
+  padding-left: 8%;
+  padding-right: 8%;
+}
+
+.logo {
+  color: white;
+  font-size: 35px;
+  letter-spacing: 1px;
+  cursor: pointer;
+}
+
+span {
+  color: #f9004d;
+}
+
+nav ul li {
+  list-style-type: none;
+  display: inline-block;
+  padding: 10px 25px;
+}
+
+nav ul li a {
+  color: black;
+  text-decoration: none;
+  font-weight: bold;
+  text-transform: capitalize;
+}
+
+nav ul li a:hover {
+  color: #f9004d;
+  transition: .4s;
+}
+
+
+
+.content {
+  position: absolute;
+  top: 50%;
+  left: 68%;
+  transform: translateY(-50%);
+}
+
+h1 {
+  color: #151414;
+  font-weight: 700;
+  font-size: 65px;
+  line-height: 76px;
+
+}
+
+
+
+.newslatter form {
+  width: 380px;
+  max-width: 100%;
+  position: relative;
+}
+
+.newslatter input {
+  background-color: #FD6E0A;
+  color: white;
+  margin-top: 32px;
+}
+
+
+/*about section start */
+.about {
+  width: 100%;
+  padding: 130px 0px;
+  background-color: white;
+}
+
+.about img {
+  height: auto;
+  width: 430px;
+}
+
+.about-text {
+  width: 550px;
+}
+
+.main {
+  width: 1130px;
+  max-width: 95%;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+
+.about-text h2 {
+  color: #000;
+  font-size: 75px;
+  text-transform: capitalize;
+  margin-bottom: 20px;
+}
+
+.about-text h5 {
+  color: #000;
+  letter-spacing: 2px;
+  font-size: 22px;
+  margin-bottom: 25px;
+  text-transform: capitalize;
+}
+
+.about-text p {
+  color: #000;
+  letter-spacing: 1px;
+  line-height: 28px;
+  font-size: 18px;
+  margin-bottom: 45px;
+}
+
+/* Service section Start*/
+.service {
+  background: white;
+  width: 100%;
+  padding: 100px 0px;
+}
+
+.title h2 {
+  color: black;
+  font-size: 65px;
+  width: 1130px;
+  margin: 30px auto;
+  text-align: center;
+}
+
+.box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 400px;
+}
+
+.card {
+  height: 365px;
+  width: 335px;
+  padding: 20px 35px;
+  background-color: white;
+  border-radius: 20px;
+  margin: 15px;
+  position: relative;
+  overflow: hidden;
+  text-align: center;
+
+}
+
+h5 {
+  color: #000;
+  font-size: 23px;
+  margin-bottom: 15px;
+
+}
+
+.pra p {
+  color: #737272;
+  font-weight: 500;
+  font-size: 25px;
+  line-height: 29px;
+  text-align: center;
+}
+
+/*contact me section */
+.contact-me {
+  height: 300px;
+  background: #737272;
+  display: flex;
+  width: 1140px;
+  margin: 40px auto;
+  text-align: center;
+  background: linear-gradient(90deg, #d45623 0%, rgba(241, 91, 30, 0) 100%), url('../images/watch.png');
+  border-radius: 8px;
+
+}
+
+.contact-me p {
+  color: wheat;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 459px;
+  left: 294px;
+  top: 2275.3px;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 47px;
+
+}
+
+.contact-me input {
+  height: 64px;
+  border-radius: 5px;
+  width: 160px;
+  color: #FD6E0A;
+  font-weight: 700;
+  font-size: 20px;
+  border: 0;
+  position: absolute;
+  margin-top: 200px;
+  margin-left: 70px;
+}
+
+
+/* contact section styles */
+
+.contact {
+  display: flex;
+  gap: 100px;
+  background: black;
+  padding: 130px 200px;
+}
+
+.contact .section-title {
+  text-align: left;
+}
+
+.contact input[type="text"] {
+  margin-bottom: 24px;
+  border: 0;
+  width: 100%;
+  padding: 18px 30px;
+}
+
+input {
+  height: 64px;
+}
+
+.contact a {
+  text-decoration: none;
+}
+
+.section-description {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  color: #FFFFFF;
+  margin-bottom: 24px;
+  text-align: justify;
+  width: 50%;
+
+}
+
+.section-title {
+  color: white;
+  font-weight: 700;
+  font-size: 35px;
+  margin-bottom: 10px;
+}
